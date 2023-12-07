@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Avoca",
+  "version": "1.0.0",
+  "description": "Sustainable Canadian Fashion. Find alternatives to poorly-rated fashion sites with our app's curated selection of products from eco-conscious companies",
+  "permissions": ["storage", "tabs", "notifications"],
+  "host_permissions": ["https://www.zara.com/ca/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.zara.com/ca/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "icons": {
+    "16": "assets/sus32.png",
+    "32": "assets/sus32.png",
+    "48": "assets/sus48.png",
+    "128": "assets/sus128.png"
+  },
+  "action": {
+    "default_icon": "assets/sus32.png",
+    "default_title": "Avoca",
+    "default_popup": "scoreInfo.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "scoreInfo.html",
+        "scoreInfo.css",
+        "assets/BreakingNews1.png",
+        "assets/susIcon.png",
+        "assets/SusGreen.png"
+      ],
+      "matches": ["https://*/*"]
+    }
+  ]
+}

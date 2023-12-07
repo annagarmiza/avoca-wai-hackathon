@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img-title {
+  width: 500px;
+}
+.header {
+  width: 500px;
+  margin: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1em;
+}
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.img-icon {
+  height: 32px;
+}
+
+h2 {
+  margin-top: 10px;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #035026;
+  border-color: #035026 transparent #035026 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#loadingIndicator {
+  display: block;
+  margin: 50px;
+}
+
+#suggestionContent {
+  display: block;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-item {
+  display: flex;
+  width: 500px;
+}
+
+.img-container {
+  width: 300px;
+}
+
+.img-container img {
+  width: 300px;
+}
+
+.details-container {
+  width: 200px;
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.details-container a {
+  text-decoration: none;
+  color: rgb(40, 75, 35);
+}
+
+.details-container h3,
+.details-container a {
+  margin: 0;
+  white-space: normal;
+  text-overflow: ellipsis;
+  font-size: 2rem;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.product-ratings img {
+  width: 32px;
+}
+
+.product-values img {
+  width: 50px;
+  margin: 1px;
+}
+
+.checked {
+  color: rgb(162, 218, 89);
+}

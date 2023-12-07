@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="scoreInfo.css" />
+  </head>
+  <body>
+    <div>
+      <div class="header">
+        <div class="header-content">
+          <div class="left">
+            <img class="img-icon" src="assets/sus32.png" />
+            <h2>AVOCA</h2>
+          </div>
+          <div class="right">
+            <button class="close-btn">X</button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <img class="img-title" src="assets/BreakingNews1.png" />
+        <div class="ethical-info">
+          <img class="brand-img" src="assets/zara.png" width="150px" />
+        </div>
+        <ul>
+          <li>
+            <div class="info-title">
+              <img src="assets/environment.png" width="50" />
+              <h3>Environment</h3>
+            </div>
+            <div class="info-content">
+              <p>
+                Their fast fashion model harms the environment due to frequent
+                turnover and trend-focused production.
+              </p>
+              <p>
+                Initiatives like garment reuse and recycled packaging are
+                positive, but they don't minimize textile waste during
+                production.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="info-title">
+              <img src="assets/no-child-labor.png" width="50" />
+              <h3>Labour Conditions</h3>
+            </div>
+            <div class="info-content">
+              <p>
+                Production in countries with medium labor abuse risks raises
+                concerns.
+              </p>
+              <p>
+                While somewhat transparent, Zara lacks progress in ensuring a
+                living wage across its supply chain, despite substantial
+                profits.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="info-title">
+              <img src="assets/rabbit.png" width="50" />
+              <h3>Animal Welfare</h3>
+            </div>
+            <div class="info-content">
+              <p>
+                Zara bans fur and animal testing but uses animal-derived
+                materials without tracing their origins.
+              </p>
+              <p>
+                The lack of transparency in tracing these materials affects
+                their rating.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var closeButton = document.querySelector(".close-btn");
+        closeButton.addEventListener("click", function () {
+          window.close();
+        });
+      });
+    </script>
+  </body>
+</html>

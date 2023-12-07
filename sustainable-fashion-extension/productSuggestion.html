@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Suggestions</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="productSuggestion.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-content">
+          <div class="left">
+            <img class="img-icon" src="assets/sus32.png" />
+            <h2>AVOCA</h2>
+          </div>
+          <div class="right">
+            <button class="close-btn">X</button>
+          </div>
+        </div>
+      </div>
+      <div class="title-container">
+        <img class="img-title" src="assets/ecoFinds.png" />
+      </div>
+      <div id="loadingIndicator" style="display: none">
+        <div class="lds-dual-ring"></div>
+      </div>
+      <div id="suggestionContent" style="display: none">
+        <div class="product-list"></div>
+      </div>
+    </div>
+    <script src="productSuggestion.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var closeButton = document.querySelector(".close-btn");
+        closeButton.addEventListener("click", function () {
+          window.close();
+        });
+      });
+    </script>
+  </body>
+</html>

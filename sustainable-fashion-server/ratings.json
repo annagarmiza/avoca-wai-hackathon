@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "name": "The Good Tee",
+    "rating": 5,
+    "values": ["organic", "vegan", "eco-friendly", "fair-trade"]
+  },
+  {
+    "id": 2,
+    "name": "FREED",
+    "rating": 4,
+    "values": ["vegan"]
+  },
+  {
+    "id": 3,
+    "name": "Park & Fifth Clothing Co",
+    "rating": 4,
+    "values": ["recycle"]
+  },
+  {
+    "id": 4,
+    "name": "hernest project",
+    "rating": 4,
+    "values": ["organic", "vegan", "eco-friendly", "recycle"]
+  },
+  {
+    "id": 5,
+    "name": "Delayne Dixon",
+    "rating": 4,
+    "values": ["recycle"]
+  },
+  {
+    "id": 6,
+    "name": "Free Label",
+    "rating": 4,
+    "values": ["vegan"]
+  },
+  {
+    "id": 7,
+    "name": "harley jae",
+    "rating": 4,
+    "values": []
+  },
+  {
+    "id": 8,
+    "name": "Good for Sunday",
+    "rating": 4,
+    "values": ["organic", "eco-friendly"]
+  },
+  {
+    "id": 9,
+    "name": "Encircled",
+    "rating": 4,
+    "values": []
+  },
+  {
+    "id": 10,
+    "name": "Tamga Designs",
+    "rating": 4,
+    "values": []
+  },
+  {
+    "id": 11,
+    "name": "Kotn",
+    "rating": 4,
+    "values": []
+  },
+  {
+    "id": 12,
+    "name": "FRANC",
+    "rating": 4,
+    "values": ["organic", "eco-friendly"]
+  },
+  {
+    "id": 13,
+    "name": "Frankie Collective",
+    "rating": 4,
+    "values": ["recycle"]
+  },
+
+  {
+    "id": 14,
+    "name": "Yoga Jeans",
+    "rating": 4,
+    "values": []
+  },
+  {
+    "id": 15,
+    "name": "Message Factory",
+    "rating": 4,
+    "values": ["organic", "eco-friendly", "recycle"]
+  },
+  {
+    "id": 16,
+    "name": "Thief&Bandit",
+    "rating": 4,
+    "values": ["organic", "eco-friendly"]
+  },
+  {
+    "id": 17,
+    "name": "Wildflo Studio",
+    "rating": 4,
+    "values": ["organic", "eco-friendly", "fair-trade"]
+  },
+  {
+    "id": 18,
+    "name": "tentree",
+    "rating": 4,
+    "values": ["organic", "eco-friendly", "recycle"]
+  },
+  {
+    "id": 19,
+    "name": "Wuxly",
+    "rating": 4,
+    "values": ["vegan", "recycle"]
+  }
+]
