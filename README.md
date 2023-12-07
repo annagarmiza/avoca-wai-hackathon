@@ -29,6 +29,6 @@ AVOCA is a Chrome extension coupled with a Python AI backend that transforming s
 [Zip File](https://www.dropbox.com/scl/fi/krwaal4ptccb052wwjwbr/drp_fashion_img_sus_canada_brands.zip?rlkey=7f4vct30f37t813fczbkd3j0c&dl=0)
 
 ## Collaborators 
-- Aemlia Wong ([GitHub](https://github.com/ameliastwong)) - Lead Product Manager
+- Amelia Wong ([GitHub](https://github.com/ameliastwong)) - Lead Product Manager
 - Karen Swyszcz - Lead Product Manager
 - Anna Garmiza ([GitHub](https://github.com/annagarmiza)) - Lead Developer
